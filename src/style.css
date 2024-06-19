@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'dobidoo';
+    src: url(Mainstay.ttf) format('truetype');
+    font-weight:100 ;
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url(coolvetica\ rg.otf) format('opentype');
+    font-weight:100 ;
+}
+#Heading{
+    font-size: 3rem;
+    color: aliceblue;
+}
+#homeHeading{
+    font-size: 4.2rem;
+    color: aliceblue;
+}
+body{
+    font-family: dobidoo;
+    background-image: url(img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    margin-top: 50px;
+}
+header button{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.7rem;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 255, 255);
+    font-family: dobidoo;
+}
+#content{
+    height: 500px;
+    width: 800px;
+    background-color: rgba(92, 92, 92, 0.105);
+    box-shadow: 0 0 1px 0 ;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+#homeContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    text-align: center;
+    color: white;
+}
+#contactContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    text-align: center;
+    color: white;
+}
+#menuContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    text-align: center;
+}
+#menuList{
+    display: flex;
+    gap: 10px;
+}
+.item{
+    width: 140px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    padding: 3px;
+    color: white;
+}
+
+#content button{
+    font-family: coolvetica;
+    color: white;
+    background-color:rgb(224, 169, 32);
+    height: 3rem;
+    width: 8rem;
+    margin-top: 60px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+h3, p{
+    font-family: coolvetica;
+}
+
