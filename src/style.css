@@ -12,6 +12,9 @@
     font-size: 3rem;
     color: aliceblue;
 }
+.nav:hover{
+    text-decoration: underline;
+}
 #homeHeading{
     font-size: 4.2rem;
     color: aliceblue;
@@ -83,6 +86,12 @@ header button{
     border-radius: 4px;
     padding: 3px;
     color: white;
+    transition: 0.3s;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.item:hover{
+    opacity: 1;
 }
 
 #content button{
@@ -95,6 +104,11 @@ header button{
     font-size: 1rem;
     border: none;
     border-radius: 10px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+#content button:hover{
+    opacity: 1;
 }
 h3, p{
     font-family: coolvetica;
